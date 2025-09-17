@@ -17,12 +17,15 @@ public class ForgotPassword {
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.facebook.com");
 		driver.manage().window().maximize();
-		try {
-		 WebElement forgotField = driver.findElement(By.linkText("Forgotten password?"));
-		 System.out.println("Avilable");
-		}catch(Exception e) {
-		System.out.println("Not avilable");
-		 
+		 WebElement forgotField = driver.findElement(By.partialLinkText("Forgotten password?"));
+		 //System.out.println("Avilable");
+		 String str = forgotField.getText();
+		String str1 = "Forgotten password?.";
+		if(str.equals(str1)) {
+			System.out.println("Avilable");
+		}
+		else {
+			System.out.println("Not Available");
 		}
 
 	}

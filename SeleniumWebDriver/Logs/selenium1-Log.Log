@@ -1,0 +1,44 @@
+2025-08-23 11:26:37 [main] INFO  com.tops.ExcelMaven.ConfigReaderTestNG - Test Started - Setting up browser
+2025-08-23 11:26:42 [main] INFO  com.tops.ExcelMaven.ConfigReaderTestNG - Browser launched and navigated to the url 
+2025-08-23 11:26:42 [main] INFO  com.tops.ExcelMaven.ConfigReaderTestNG - Starting Login Test
+2025-08-23 11:26:45 [main] INFO  com.tops.ExcelMaven.ConfigReaderTestNG - Clicked login button
+2025-08-23 11:26:45 [main] INFO  com.tops.ExcelMaven.ConfigReaderTestNG - Clicked login button
+2025-08-23 11:29:22 [main] INFO  com.tops.ExcelMaven.ConfigReaderTestNG - Test Started - Setting up browser
+2025-08-23 11:29:27 [main] INFO  com.tops.ExcelMaven.ConfigReaderTestNG - Browser launched and navigated to the url 
+2025-08-23 11:29:27 [main] INFO  com.tops.ExcelMaven.ConfigReaderTestNG - Starting Login Test
+2025-08-23 11:29:29 [main] INFO  com.tops.ExcelMaven.ConfigReaderTestNG - Clicked login button
+2025-08-23 11:29:29 [main] INFO  com.tops.ExcelMaven.ConfigReaderTestNG - Clicked login button
+2025-08-25 13:21:03 [main] INFO  com.tops.ExcelMaven.ConfigReaderTestNG - Test Started - Setting up browser
+2025-08-25 13:21:03 [main] INFO  com.tops.ExcelMaven.ConfigReaderTestNG - Test Started - Setting up browser
+2025-08-25 13:21:16 [main] INFO  com.tops.ExcelMaven.ConfigReaderTestNG - Browser launched and navigated to the url 
+2025-08-25 13:21:16 [main] INFO  com.tops.ExcelMaven.ConfigReaderTestNG - Browser launched and navigated to the url 
+2025-08-25 13:21:17 [main] INFO  com.tops.ExcelMaven.ConfigReaderTestNG - Starting Login Test
+2025-08-25 13:21:17 [main] INFO  com.tops.ExcelMaven.ConfigReaderTestNG - Starting Login Test
+2025-08-25 13:21:20 [main] INFO  com.tops.ExcelMaven.ConfigReaderTestNG - Clicked login button
+2025-08-25 13:21:20 [main] INFO  com.tops.ExcelMaven.ConfigReaderTestNG - Clicked login button
+2025-08-25 13:21:20 [main] INFO  com.tops.ExcelMaven.ConfigReaderTestNG - Clicked login button
+2025-08-25 13:21:20 [main] INFO  com.tops.ExcelMaven.ConfigReaderTestNG - Clicked login button
+2025-08-26 12:45:32 [main] INFO  com.tops.ExcelMaven.LoginTest - Testing Start
+2025-08-26 12:45:32 [main] INFO  com.tops.ExcelMaven.LoginTest - Chrome Browser is launched
+2025-08-26 12:45:35 [main] INFO  com.tops.ExcelMaven.LoginTest - Login tested Snehal_Solanki Snehal%123
+2025-08-26 12:45:36 [main] INFO  com.tops.ExcelMaven.LoginTest - Testing Start
+2025-08-26 12:45:36 [main] INFO  com.tops.ExcelMaven.LoginTest - Chrome Browser is launched
+2025-08-26 12:45:39 [main] INFO  com.tops.ExcelMaven.LoginTest - Login tested standard_user secret_sauce
+2025-08-26 12:46:11 [main] INFO  com.tops.ExcelMaven.LoginTest - Testing Start
+2025-08-26 12:46:11 [main] INFO  com.tops.ExcelMaven.LoginTest - Chrome Browser is launched
+2025-08-26 12:46:13 [main] INFO  com.tops.ExcelMaven.LoginTest - Login tested Snehal_Solanki Snehal%123
+2025-08-26 12:46:14 [main] INFO  com.tops.ExcelMaven.LoginTest - Testing Start
+2025-08-26 12:46:14 [main] INFO  com.tops.ExcelMaven.LoginTest - Chrome Browser is launched
+2025-08-26 12:46:16 [main] INFO  com.tops.ExcelMaven.LoginTest - Login tested standard_user secret_sauce
+2025-09-05 13:30:21 [main] INFO  com.tops.ExcelMaven.LoginTest - Testing Start
+2025-09-05 13:30:21 [main] INFO  com.tops.ExcelMaven.LoginTest - Chrome Browser is launched
+2025-09-05 13:30:23 [main] INFO  com.tops.ExcelMaven.LoginTest - Login tested Snehal_Solanki Snehal%123
+2025-09-05 13:30:24 [main] INFO  com.tops.ExcelMaven.LoginTest - Testing Start
+2025-09-05 13:30:24 [main] INFO  com.tops.ExcelMaven.LoginTest - Chrome Browser is launched
+2025-09-05 13:30:26 [main] INFO  com.tops.ExcelMaven.LoginTest - Login tested standard_user secret_sauce
+2025-09-06 13:12:25 [main] INFO  com.tops.ExcelMaven.LoginTest - Testing Start
+2025-09-06 13:12:25 [main] INFO  com.tops.ExcelMaven.LoginTest - Chrome Browser is launched
+2025-09-06 13:12:28 [main] INFO  com.tops.ExcelMaven.LoginTest - Login tested Snehal_Solanki Snehal%123
+2025-09-06 13:12:31 [main] INFO  com.tops.ExcelMaven.LoginTest - Testing Start
+2025-09-06 13:12:31 [main] INFO  com.tops.ExcelMaven.LoginTest - Chrome Browser is launched
+2025-09-06 13:12:34 [main] INFO  com.tops.ExcelMaven.LoginTest - Login tested standard_user secret_sauce

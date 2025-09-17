@@ -1,0 +1,3 @@
+2025-08-19 20:45:14 [main] INFO  com.tops.SeleniumGrid.Log4jExample - Testing
+2025-08-19 20:45:14 [main] ERROR com.tops.SeleniumGrid.Log4jExample - This is an error message
+2025-08-19 20:45:14 [main] WARN  com.tops.SeleniumGrid.Log4jExample - This is a warning

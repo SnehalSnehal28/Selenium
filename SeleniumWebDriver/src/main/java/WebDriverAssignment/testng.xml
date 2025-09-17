@@ -1,0 +1,25 @@
+<suite name="MyTestSuite" parallel="methods" thread-count="2"> 
+   <test name="LoginTests"> 
+       <classes> 
+           <class name="WebDriverAssignment.LoginTest"> 
+               <methods> 
+                   <include name="testValidLogin"/> 
+                   <exclude name="testInvalidLoginWithEmptyPassword"/> 
+               </methods> 
+           </class> 
+       </classes> 
+   </test> 
+   <test name="ProductTests"> 
+       <classes> 
+           <class name="WebDriverAssignment.ProductSearchTest"/> 
+           <class name="WebDriverAssignment.ProductDetailsTest"/> 
+       </classes> 
+   </test> 
+   <test name="ParameterizedLoginTest"> 
+       <parameter name="username" value="testUser"/> 
+       <parameter name="password" value="testPass"/> 
+       <classes> 
+           <class name="WebDriverAssignment.LoginTest"/> 
+       </classes> 
+   </test> 
+</suite> 

@@ -1,0 +1,9 @@
+<suite name="FacebookLoginSuite">
+    <test name="FacebookLoginTest">
+        <parameter name="username" value="testuser123" />
+        <parameter name="password" value="pass@123" />
+        <classes>
+            <class name="WebDriverAssignment.FacebookLoginTestng_17" />
+        </classes>
+    </test>
+</suite>
