@@ -17,7 +17,7 @@ public class ImplicitWait {
 		System.setProperty("webdriver.chrome.driver", fullpath);
 		WebDriver driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		driver.manage().window().minimize();
+		driver.manage().window().maximize();
 		driver.get("https://practicesoftwaretesting.com/auth/register");
 		
 		WebElement fn = driver.findElement(By.id("first_name"));

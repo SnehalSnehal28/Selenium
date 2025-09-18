@@ -20,7 +20,7 @@ public class ExplicitWait {
 		System.setProperty("webdriver.chrome.driver", fullpath);
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://practicesoftwaretesting.com/auth/register"); 
-		driver.manage().window().minimize();
+		driver.manage().window().maximize();
 		WebDriverWait wait = new WebDriverWait (driver,Duration.ofSeconds(10));
 		WebElement fn = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("first_name")));
 		fn.sendKeys("Riddhi");

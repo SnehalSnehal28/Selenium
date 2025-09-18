@@ -24,9 +24,9 @@ public class KeyboardKeyDown {
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://amazon.in");
 		Actions actions = new Actions(driver);
-		actions.moveToElement(driver.findElement(By.id("twotabsearchtextbox"))).click().keyDown(Keys.SHIFT).sendKeys("Mobile").build().perform();
+		actions.moveToElement(driver.findElement(By.id("twotabsearchtextbox"))).click().keyDown(Keys.SHIFT).sendKeys("Mobile").perform();
 		Thread.sleep(3000);
-		actions.sendKeys(Keys.BACK_SPACE).sendKeys(Keys.BACK_SPACE).build().perform();
+		actions.sendKeys(Keys.BACK_SPACE).sendKeys(Keys.BACK_SPACE).perform();
 		
 		//Take Screenshot
 		TakesScreenshot ts = (TakesScreenshot)driver;

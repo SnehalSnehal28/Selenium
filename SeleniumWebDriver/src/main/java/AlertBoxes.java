@@ -8,12 +8,16 @@ public class AlertBoxes {
 		// TODO Auto-generated method stub
 		String path = System.getProperty("user.dir");
 		System.out.println(path);
-		String fullpath = path + "\\src\\main\\java\\webdriver\\chromedriver_137.exe";
+		String fullpath = path + "\\src\\main\\java\\webdriver\\chromedriver.exe";
 		System.out.println(fullpath);
+		
 		System.setProperty("webdriver.chrome.driver", fullpath);
+		
 		//Navigate to the test page (Replace with your test page)
 		WebDriver driver = new ChromeDriver();
+		
 		driver.get("https://the-internet.herokuapp.com/javascript_alerts");
+		
 		driver.findElement(By.xpath("//*[@id=\"content\"]/div/ul/li[3]/button")).click();
 		System.out.println("Alert Text: " + driver.switchTo().alert().getText());
 		driver.switchTo().alert().sendKeys("hiii"); // prompt box

@@ -7,11 +7,11 @@ import org.openqa.selenium.support.ui.Select;
 
 public class QA_Automate_Form {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 		String path = System.getProperty("user.dir");
 		System.out.println(path);
-		String fullpath = path + "//src//main//java//webdriver//chromedriver_137.exe";
+		String fullpath = path + "//src//main//java//webdriver//chromedriver.exe";
 		System.out.println(fullpath);
 		System.setProperty("webdriver.chrome.driver", fullpath);
 		WebDriver driver = new ChromeDriver();
@@ -35,6 +35,7 @@ public class QA_Automate_Form {
         lastName.sendKeys("Doe");
 
         // 3. Email - By.cssSelector
+        Thread.sleep(3000);
         WebElement email = driver.findElement(By.cssSelector("input[placeholder='name@example.com']"));
         email.sendKeys("john.doe@example.com");
 
@@ -43,6 +44,7 @@ public class QA_Automate_Form {
         genderMale.click();
 
         // 5. Mobile Number - By.className
+        Thread.sleep(3000);
         WebElement mobile = driver.findElement(By.xpath("//*[@id=\"userNumber\"]"));
         mobile.sendKeys("1234567890");
 
@@ -60,6 +62,7 @@ public class QA_Automate_Form {
         day.click();
 
         // 7. Subjects - By.xpath
+        Thread.sleep(3000);
         WebElement subject = driver.findElement(By.id("subjectsInput"));
         subject.sendKeys("Math");
         subject.sendKeys("\n");
@@ -77,6 +80,7 @@ public class QA_Automate_Form {
         upload.sendKeys("C:\\Users\\sneha\\OneDrive\\Pictures\\a3.gif"); // Update with actual file path
 
         // 10. Current Address - By.cssSelector
+        Thread.sleep(3000);
         WebElement address = driver.findElement(By.cssSelector("textarea#currentAddress"));
         address.sendKeys("123 Main St, Cityville");
         try {
@@ -92,6 +96,7 @@ public class QA_Automate_Form {
         selectState.click();
 
         // 12. City - By.xpath
+        Thread.sleep(3000);
         WebElement city = driver.findElement(By.xpath("//div[contains(text(),'Select City')]"));
         city.click();
         WebElement selectCity = driver.findElement(By.xpath("//div[text()='Delhi']"));

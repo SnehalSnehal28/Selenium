@@ -7,7 +7,7 @@ public class Chrome_Google {
 		// TODO Auto-generated method stub
 		String path=System.getProperty("user.dir");
 		System.out.println(path);
-		String fullpath=path + "\\src\\main\\java\\webdriver\\chromedriver_137.exe";
+		String fullpath=path + "\\src\\main\\java\\webdriver\\chromedriver.exe";
 		System.out.println(fullpath);
 		System.setProperty("webdriver.chrome.driver", fullpath);
 		WebDriver driver = new ChromeDriver();
