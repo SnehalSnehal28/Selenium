@@ -1,0 +1,13 @@
+<suite name="ShopSuite">
+  <listeners>
+    <listener class-name="report.TestListener"/>
+  </listeners>
+
+  <test name="Ecommerce Tests">
+    <classes>
+      <class name="tests.LoginTest"/>
+      <class name="tests.SearchTest"/>
+      <class name="tests.CartTest"/>
+    </classes>
+  </test>
+</suite>

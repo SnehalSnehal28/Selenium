@@ -1,0 +1,24 @@
+2025-09-06 17:03:02 [main] INFO  DataDriven.LoginTest - Testing Start
+2025-09-06 17:03:02 [main] INFO  DataDriven.LoginTest - Chrome Browser is launched
+2025-09-06 17:03:16 [main] INFO  DataDriven.LoginTest - Login tested Snehal_Solanki Snehal%123
+2025-09-06 17:03:17 [main] INFO  DataDriven.LoginTest - Testing Start
+2025-09-06 17:03:17 [main] INFO  DataDriven.LoginTest - Chrome Browser is launched
+2025-09-06 17:03:32 [main] INFO  DataDriven.LoginTest - Login tested standard_user secret_sauce
+2025-09-06 17:25:30 [main] INFO  Assignment.DataDriven.LoginTest - Testing Start
+2025-09-06 17:25:30 [main] INFO  Assignment.DataDriven.LoginTest - Chrome Browser is launched
+2025-09-06 17:25:33 [main] INFO  Assignment.DataDriven.LoginTest - Login tested Snehal_Solanki Snehal%123
+2025-09-06 17:25:36 [main] INFO  Assignment.DataDriven.LoginTest - Testing Start
+2025-09-06 17:25:36 [main] INFO  Assignment.DataDriven.LoginTest - Chrome Browser is launched
+2025-09-06 17:25:39 [main] INFO  Assignment.DataDriven.LoginTest - Login tested standard_user secret_sauce
+2025-09-06 17:27:13 [main] INFO  Assignment.DataDriven.LoginTest - Testing Start
+2025-09-06 17:27:13 [main] INFO  Assignment.DataDriven.LoginTest - Chrome Browser is launched
+2025-09-06 17:27:16 [main] INFO  Assignment.DataDriven.LoginTest - Login tested Snehal_Solanki Snehal%123
+2025-09-06 17:27:20 [main] INFO  Assignment.DataDriven.LoginTest - Testing Start
+2025-09-06 17:27:20 [main] INFO  Assignment.DataDriven.LoginTest - Chrome Browser is launched
+2025-09-06 17:27:23 [main] INFO  Assignment.DataDriven.LoginTest - Login tested standard_user secret_sauce
+2025-09-06 17:29:47 [main] INFO  Assignment.DataDriven.LoginTest - Testing Start
+2025-09-06 17:29:47 [main] INFO  Assignment.DataDriven.LoginTest - Chrome Browser is launched
+2025-09-06 17:29:50 [main] INFO  Assignment.DataDriven.LoginTest - Login tested snehalsolanki2003@gmail,com snehal2528
+2025-09-10 12:08:49 [main] INFO  Assignment.DataDriven.LoginTest - Testing Start
+2025-09-10 12:08:49 [main] INFO  Assignment.DataDriven.LoginTest - Chrome Browser is launched
+2025-09-10 12:08:52 [main] INFO  Assignment.DataDriven.LoginTest - Login tested snehalsolanki2003@gmail,com snehal2528
